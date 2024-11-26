@@ -110,12 +110,12 @@ img {
 }
 
 .favorite-craft {
-  margin: 8rem auto;
+  margin: 5rem auto;
   max-width: 50%;
   background-color: rosybrown;
   color: white;
-  padding: 2rem;
-  border-radius: 30px;
+  padding: 3.5rem;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 footer {
