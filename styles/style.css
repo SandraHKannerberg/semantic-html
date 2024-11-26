@@ -53,6 +53,8 @@ p {
 
 .images-container {
   display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 figure {
@@ -61,6 +63,15 @@ figure {
 
 img {
   height: 100%;
+}
+
+.favorite-craft {
+  margin: 3rem auto;
+  max-width: 50%;
+  background-color: rosybrown;
+  color: white;
+  padding: 2rem;
+  border-radius: 25px;
 }
 
 footer {
