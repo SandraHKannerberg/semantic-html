@@ -1,1 +1,11 @@
+.images-container {
+  display: flex;
+}
 
+figure {
+  height: 12rem;
+}
+
+img {
+  height: 100%;
+}
