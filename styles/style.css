@@ -8,18 +8,23 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 
 .top-header {
-  max-width: 100vw;
+  width: 100vw;
   background-color: rosybrown;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 200;
 }
 
 h2 {
@@ -30,12 +35,16 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
+.nav,
 ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 5rem;
   list-style: none;
+  background-color: black;
+  width: 100vw;
+  padding: 0.3rem;
 }
 
 a {
@@ -47,6 +56,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.nav-link {
+  text-transform: uppercase;
+}
+
 main {
   max-width: 80%;
   margin: auto;
@@ -55,7 +68,7 @@ main {
 .intro,
 .details,
 .summary {
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 
 .content-container {
