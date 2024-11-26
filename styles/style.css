@@ -37,14 +37,18 @@ main {
   max-width: 80%;
 }
 
-footer {
-  background-color: rosybrown;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+.intro,
+.details,
+.summary {
+  margin: 2rem 0;
+}
+
+.content-container {
+  margin: 1.75rem 0;
+}
+
+p {
+  margin: 0.5rem 0;
 }
 
 .images-container {
@@ -57,4 +61,14 @@ figure {
 
 img {
   height: 100%;
+}
+
+footer {
+  background-color: rosybrown;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
